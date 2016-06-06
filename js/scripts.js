@@ -1,9 +1,8 @@
 $(function(){
   var flavors = ["chocolate", "coffee", "vanilla", "strawberry"];
-  ("button").click(function(){
+  $("button").click(function(){
     flavors.forEach(function(flavor){
-      ("ul").append("<li>" + flavor + "<li>");
-      debugger;
+      $("ul").append("<li>" + flavor + "</li>");
     });
   });
 });
